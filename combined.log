@@ -1,0 +1,423 @@
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:07:52:10 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T07:52:10.405Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'map')","timestamp":"2026-01-30T07:55:23.835Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:07:55:23 +0000] \"POST /api/auth/login HTTP/1.1\" 500 1208 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T07:55:23.843Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'map')","timestamp":"2026-01-30T07:55:35.907Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:07:55:35 +0000] \"POST /api/auth/login HTTP/1.1\" 500 1208 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T07:55:35.910Z"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'map')","timestamp":"2026-01-30T07:55:36.888Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:07:55:36 +0000] \"POST /api/auth/login HTTP/1.1\" 500 1208 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T07:55:36.899Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:07:57:23 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T07:57:23.001Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:06:34 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:06:34.346Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:06:55 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:06:55.026Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:07:02 +0000] \"GET /api/resources?type=note HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:07:02.447Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:07:04 +0000] \"GET /api/resources?type=syllabus HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:07:04.661Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:07:06 +0000] \"GET /api/resources?type=paper HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:07:06.657Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:07:09 +0000] \"GET /api/resources?type=paper HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:07:09.107Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:11:24 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:11:24.165Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:11:31 +0000] \"GET /api/resources?type=paper HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:11:31.588Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:12:02 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:12:02.654Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:12:05 +0000] \"GET /api/resources?type=paper HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:12:05.146Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:12:24 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:12:24.161Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:22:02 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:22:02.582Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:22:05 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:22:05.218Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:22:18 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:22:18.777Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:22:31 +0000] \"PUT /api/auth/profile HTTP/1.1\" 200 282 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:22:31.888Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:08:22:36 +0000] \"PUT /api/auth/profile HTTP/1.1\" 200 282 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T08:22:36.620Z"}
+{"level":"info","message":"New client connected: NExxR1VtV0IivzXIAAAB","timestamp":"2026-01-30T09:37:56.029Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:39:49 +0000] \"GET /api/updates HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:39:49.529Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:39:52 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:39:52.658Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:39:58 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:39:58.291Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:40:00 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:40:00.385Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:40:16 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:40:16.849Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:40:28 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:40:28.264Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:40:30 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:40:30.231Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:40:31 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:40:31.888Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:40:52 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:40:52.122Z"}
+{"level":"info","message":"New client connected: 3APVszB9hvDYU3-sAAAB","timestamp":"2026-01-30T09:41:03.373Z"}
+{"level":"info","message":"New client connected: qw7KhoWRV_XG9EN-AAAB","timestamp":"2026-01-30T09:41:06.883Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:41:09 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:41:09.749Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:42:20 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:42:20.774Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:43:00 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:43:00.426Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:43:00 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:43:00.523Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:43:04 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:43:04.895Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:43:22 +0000] \"POST /api/auth/change-password HTTP/1.1\" 200 43 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:43:22.828Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:45:17 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:45:17.527Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:45:17 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:45:17.639Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:45:20 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:45:20.909Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:45:21 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:45:21.143Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:45:33 +0000] \"POST /api/auth/change-password HTTP/1.1\" 200 43 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:45:33.311Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:45:36 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:45:36.935Z"}
+{"level":"info","message":"Client disconnected: qw7KhoWRV_XG9EN-AAAB","timestamp":"2026-01-30T09:46:46.308Z"}
+{"level":"info","message":"New client connected: VEjGBdIzjvsZh_iGAAAD","timestamp":"2026-01-30T09:46:48.862Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:46:48 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:46:48.901Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:47:32 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:47:32.825Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:47:32 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:47:32.919Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:47:35 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:47:35.636Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:47:51 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:47:51.552Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:48:31 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:48:31.750Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:49:03 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:49:03.474Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:50:21 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:50:21.964Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:50:41 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:50:41.294Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:50:43 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:50:43.799Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:51:06 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:51:06.318Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:51:09 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:51:09.517Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:51:36 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:51:36.152Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:51:36 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:51:36.374Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:51:36 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:51:36.375Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:51:40 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:51:40.422Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:52:21 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:52:21.424Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:52:21 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:52:21.425Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:53:57 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:53:57.925Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:54:14 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:54:14.112Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:54:20 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:54:20.902Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:54:26 +0000] \"GET /api/resources?type=syllabus HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:54:26.526Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:54:28 +0000] \"GET /api/resources?type=paper HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:54:28.657Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:54:30 +0000] \"GET /api/resources?type=syllabus HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:54:30.857Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:54:50 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:54:50.426Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:54:55 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:54:55.201Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:54:59 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:54:59.293Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:55:23 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:55:23.569Z"}
+{"level":"info","message":"Client disconnected: VEjGBdIzjvsZh_iGAAAD","timestamp":"2026-01-30T09:58:02.728Z"}
+{"level":"info","message":"New client connected: TJmRaLSnaMFTaWITAAAF","timestamp":"2026-01-30T09:58:14.785Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:59:17 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:59:17.340Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:59:17 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:59:17.470Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:59:31 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:59:31.275Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:09:59:52 +0000] \"PUT /api/auth/profile HTTP/1.1\" 200 282 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T09:59:52.219Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:00:02 +0000] \"GET /api/resources?type=paper HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:00:02.457Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:00:56 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:00:56.227Z"}
+{"level":"info","message":"Client disconnected: TJmRaLSnaMFTaWITAAAF","timestamp":"2026-01-30T10:01:58.503Z"}
+{"level":"info","message":"New client connected: D8F_LllTzq-flUfLAAAH","timestamp":"2026-01-30T10:09:01.340Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:09:01 +0000] \"GET /api/auth/profile HTTP/1.1\" 200 100 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:09:01.380Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:09:01 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:09:01.699Z"}
+{"level":"info","message":"Client disconnected: D8F_LllTzq-flUfLAAAH","timestamp":"2026-01-30T10:11:57.538Z"}
+{"level":"info","message":"New client connected: AyORmC39_M9O7ARdAAAJ","timestamp":"2026-01-30T10:11:58.603Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:11:58 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:11:58.675Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:11:58 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:11:58.894Z"}
+{"level":"info","message":"Client disconnected: AyORmC39_M9O7ARdAAAJ","timestamp":"2026-01-30T10:11:59.201Z"}
+{"level":"info","message":"New client connected: x8VgYSX6iS5iHWCyAAAL","timestamp":"2026-01-30T10:11:59.952Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:11:59 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:11:59.961Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:12:00 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:12:00.173Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:17:42 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:17:42.512Z"}
+{"level":"info","message":"Client disconnected: x8VgYSX6iS5iHWCyAAAL","timestamp":"2026-01-30T10:17:42.733Z"}
+{"level":"info","message":"New client connected: gJrz5cwVcQuZDIyNAAAN","timestamp":"2026-01-30T10:17:47.200Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:17:47 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:17:47.229Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:17:47 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:17:47.534Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:17:50 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:17:50.541Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:17:54 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:17:54.475Z"}
+{"level":"info","message":"Client disconnected: gJrz5cwVcQuZDIyNAAAN","timestamp":"2026-01-30T10:18:09.650Z"}
+{"level":"info","message":"New client connected: 7pICjNYaATcf7invAAAP","timestamp":"2026-01-30T10:18:12.935Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:18:29 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:18:29.596Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:18:29 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:18:29.749Z"}
+{"level":"info","message":"Client disconnected: 7pICjNYaATcf7invAAAP","timestamp":"2026-01-30T10:19:29.248Z"}
+{"level":"info","message":"New client connected: 94MELbqDIJN1_8WpAAAR","timestamp":"2026-01-30T10:19:29.332Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:19:29 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:19:29.336Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:19:29 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:19:29.363Z"}
+{"level":"info","message":"Client disconnected: 94MELbqDIJN1_8WpAAAR","timestamp":"2026-01-30T10:19:30.927Z"}
+{"level":"info","message":"New client connected: xVoJXiEGmW1Zp60jAAAT","timestamp":"2026-01-30T10:20:49.869Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:20:49 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:20:49.965Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:20:50 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:20:50.145Z"}
+{"level":"info","message":"Client disconnected: xVoJXiEGmW1Zp60jAAAT","timestamp":"2026-01-30T10:21:19.394Z"}
+{"level":"info","message":"New client connected: NpLii_Nc2AR3nqvnAAAV","timestamp":"2026-01-30T10:21:23.448Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:21:23 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:21:23.480Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:21:23 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:21:23.827Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:21:32 +0000] \"GET /api/resources?type=syllabus HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:21:32.527Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:21:35 +0000] \"GET /api/resources?type=paper HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:21:35.141Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:21:47 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:21:47.876Z"}
+{"level":"info","message":"Client disconnected: NpLii_Nc2AR3nqvnAAAV","timestamp":"2026-01-30T10:22:06.163Z"}
+{"level":"info","message":"New client connected: uR-DEq__T124sEe0AAAX","timestamp":"2026-01-30T10:22:29.864Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:22:29 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:22:29.903Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:22:30 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:22:30.219Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:22:33 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:22:33.254Z"}
+{"level":"info","message":"Client disconnected: uR-DEq__T124sEe0AAAX","timestamp":"2026-01-30T10:23:02.918Z"}
+{"level":"info","message":"New client connected: Ij3qLQHFHElQNXHkAAAZ","timestamp":"2026-01-30T10:23:02.976Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:02 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:02.992Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:02 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:02.998Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.071Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.113Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.153Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.185Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.237Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.272Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.428Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.607Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.722Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.786Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.819Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.851Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.884Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.915Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.939Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:03.979Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.011Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.041Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.069Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.104Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.135Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.162Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.191Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.215Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.236Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.260Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.287Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.311Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.332Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.356Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.386Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.410Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.433Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.461Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.492Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.667Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.695Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.721Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.747Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.769Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.798Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.820Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.844Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.868Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.893Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.917Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.950Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:04 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:04.987Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.013Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.035Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.056Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.078Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.107Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.143Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.170Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.197Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.274Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.298Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.320Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.345Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.367Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.388Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.410Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.433Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.456Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.499Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.560Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.581Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.602Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.625Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.649Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.674Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.698Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.720Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.742Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.765Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.788Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.811Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:23:05 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:23:05.833Z"}
+{"level":"info","message":"Client disconnected: Ij3qLQHFHElQNXHkAAAZ","timestamp":"2026-01-30T10:24:13.324Z"}
+{"level":"info","message":"New client connected: ZWFJQYXGpxKlu-wYAAAb","timestamp":"2026-01-30T10:29:10.032Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:33:51 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:33:51.093Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:33:51 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:33:51.397Z"}
+{"level":"info","message":"Client disconnected: ZWFJQYXGpxKlu-wYAAAb","timestamp":"2026-01-30T10:33:51.496Z"}
+{"level":"info","message":"New client connected: DBcQm-VQ-ZazcXKQAAAd","timestamp":"2026-01-30T10:34:33.556Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:34:33 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:34:33.612Z"}
+{"level":"info","message":"Client disconnected: DBcQm-VQ-ZazcXKQAAAd","timestamp":"2026-01-30T10:34:33.978Z"}
+{"level":"info","message":"New client connected: j0o9lgW89cu2wO9tAAAf","timestamp":"2026-01-30T10:34:48.155Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:34:48 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:34:48.220Z"}
+{"level":"info","message":"Client disconnected: j0o9lgW89cu2wO9tAAAf","timestamp":"2026-01-30T10:34:48.574Z"}
+{"level":"info","message":"New client connected: BU49ElKTV8FPgp1ZAAAh","timestamp":"2026-01-30T10:36:37.732Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:36:37 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:36:37.774Z"}
+{"level":"info","message":"Client disconnected: BU49ElKTV8FPgp1ZAAAh","timestamp":"2026-01-30T10:36:38.090Z"}
+{"level":"info","message":"New client connected: lO2eha6YBuows9x5AAAj","timestamp":"2026-01-30T10:38:19.361Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:38:19 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:38:19.429Z"}
+{"level":"info","message":"Client disconnected: lO2eha6YBuows9x5AAAj","timestamp":"2026-01-30T10:38:19.769Z"}
+{"level":"info","message":"New client connected: E2bzioYu5KTcQ75vAAAl","timestamp":"2026-01-30T10:41:33.321Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:41:33 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:41:33.380Z"}
+{"level":"info","message":"Client disconnected: E2bzioYu5KTcQ75vAAAl","timestamp":"2026-01-30T10:41:33.753Z"}
+{"level":"info","message":"New client connected: cP6HGUm5SwvXEipUAAAn","timestamp":"2026-01-30T10:46:55.196Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:46:55 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:46:55.341Z"}
+{"level":"info","message":"Client disconnected: cP6HGUm5SwvXEipUAAAn","timestamp":"2026-01-30T10:46:56.743Z"}
+{"level":"info","message":"New client connected: KZiz2N-5lAiygFPwAAAp","timestamp":"2026-01-30T10:47:03.553Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:47:03 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:47:03.602Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:47:03 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:47:03.922Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:47:11 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:47:11.634Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:47:17 +0000] \"GET /api/resources?type=all HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:47:17.744Z"}
+{"level":"info","message":"Client disconnected: KZiz2N-5lAiygFPwAAAp","timestamp":"2026-01-30T10:54:24.038Z"}
+{"level":"info","message":"New client connected: PoBxO9JK1wWuPeHvAAAr","timestamp":"2026-01-30T10:54:25.322Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:54:25 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:54:25.358Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:54:25 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:54:25.539Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:54:27 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:54:27.191Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:54:31 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:54:31.095Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:10:55:17 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T10:55:17.599Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:02:22 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:02:22.979Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:02:23 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:02:23.134Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:02:30 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:02:30.593Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:02:43 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:02:43.329Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:02:56 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:02:56.484Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:02:56 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:02:56.576Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:05:18 +0000] \"GET /api/resources?type=note HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:05:18.071Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:05:23 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:05:23.760Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:44:02 +0000] \"GET /api/resources?type=paper HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:44:02.718Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:44:04 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:44:04.242Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:44:06 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:44:06.249Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:44:18 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:44:18.761Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:52:57 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:52:57.147Z"}
+{"level":"info","message":"Client disconnected: PoBxO9JK1wWuPeHvAAAr","timestamp":"2026-01-30T11:53:54.189Z"}
+{"level":"info","message":"New client connected: gAnN_sxQnMel748_AAAt","timestamp":"2026-01-30T11:54:10.073Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:54:10 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:54:10.119Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:54:10 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:54:10.599Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:54:41 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:54:41.822Z"}
+{"level":"info","message":"Client disconnected: gAnN_sxQnMel748_AAAt","timestamp":"2026-01-30T11:54:52.626Z"}
+{"level":"info","message":"New client connected: BMjdhTzopvfmsnYdAAAv","timestamp":"2026-01-30T11:54:56.253Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:54:56 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:54:56.275Z"}
+{"level":"info","message":"Client disconnected: BMjdhTzopvfmsnYdAAAv","timestamp":"2026-01-30T11:54:56.321Z"}
+{"level":"info","message":"New client connected: 7VpYYC0g8Tbfg4GvAAAx","timestamp":"2026-01-30T11:54:57.793Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:54:57 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:54:57.815Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:54:57 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:54:57.961Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:55:01 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:55:01.509Z"}
+{"level":"info","message":"Client disconnected: 7VpYYC0g8Tbfg4GvAAAx","timestamp":"2026-01-30T11:57:38.106Z"}
+{"level":"info","message":"New client connected: YtIDkMlcWqMFpDbcAAAz","timestamp":"2026-01-30T11:58:45.790Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:58:46 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:58:46.013Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:58:47 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:58:47.158Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:11:59:28 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T11:59:28.058Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:03:37 +0000] \"POST /api/resources HTTP/1.1\" 500 51 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:03:37.037Z"}
+{"level":"info","message":"New client connected: hqjyhCDDFBsoSjTAAAAB","timestamp":"2026-01-30T12:04:56.152Z"}
+{"level":"info","message":"New client connected: x6VU_utue9U-UE56AAAB","timestamp":"2026-01-30T12:04:59.929Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:05:02 +0000] \"POST /api/resources HTTP/1.1\" 500 51 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:05:02.278Z"}
+{"level":"info","message":"New client connected: WelvUES9ZhKCM-P7AAAB","timestamp":"2026-01-30T12:05:21.676Z"}
+{"level":"info","message":"New client connected: UVSQIR02cuBtV3e4AAAB","timestamp":"2026-01-30T12:06:33.812Z"}
+{"level":"info","message":"New client connected: n67QTS0gH2j1kkB9AAAB","timestamp":"2026-01-30T12:06:35.700Z"}
+{"level":"info","message":"New client connected: FS9a5cZufJdQaMKkAAAB","timestamp":"2026-01-30T12:06:40.357Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:06:46 +0000] \"POST /api/resources HTTP/1.1\" 201 298 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:06:46.233Z"}
+{"level":"info","message":"New client connected: e3G50YGa2ASgYfjYAAAB","timestamp":"2026-01-30T12:06:47.981Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:06:53 +0000] \"GET /api/resources?type=note HTTP/1.1\" 200 359 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:06:53.870Z"}
+{"level":"info","message":"Client disconnected: e3G50YGa2ASgYfjYAAAB","timestamp":"2026-01-30T12:07:02.148Z"}
+{"level":"info","message":"New client connected: axJywrEQPS71Iu-VAAAD","timestamp":"2026-01-30T12:07:03.438Z"}
+{"level":"info","message":"Client disconnected: axJywrEQPS71Iu-VAAAD","timestamp":"2026-01-30T12:07:28.225Z"}
+{"level":"info","message":"New client connected: 3DX8DgZlCfh-vDLPAAAF","timestamp":"2026-01-30T12:07:29.481Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:07:29 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:07:29.514Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:07:29 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:07:29.757Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:07:34 +0000] \"GET /api/resources?type=syllabus HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:07:34.204Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:09:06 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 200 408 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:09:06.121Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:10:34 +0000] \"GET /api/resources HTTP/1.1\" 200 408 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0\"","timestamp":"2026-01-30T12:10:34.299Z"}
+{"level":"info","message":"New client connected: TKHYg3u3zxhwEjzXAAAB","timestamp":"2026-01-30T12:12:26.099Z"}
+{"level":"info","message":"Client disconnected: TKHYg3u3zxhwEjzXAAAB","timestamp":"2026-01-30T12:13:15.956Z"}
+{"level":"info","message":"New client connected: yEQ8deRs3w9N05SJAAAD","timestamp":"2026-01-30T12:13:17.886Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:13:18 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:13:18.098Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:13:18 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:13:18.333Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:13:52 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:13:52.267Z"}
+{"level":"info","message":"Client disconnected: yEQ8deRs3w9N05SJAAAD","timestamp":"2026-01-30T12:13:58.551Z"}
+{"level":"info","message":"New client connected: nfr22fLExYj8SuQ4AAAF","timestamp":"2026-01-30T12:14:00.012Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:14:00 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:14:00.053Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:14:00 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:14:00.400Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:14:04 +0000] \"GET /api/resources?type=note&year=1 HTTP/1.1\" 200 408 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:14:04.105Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:17:04 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:17:04.893Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:17:05 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:17:05.038Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:17:10 +0000] \"GET /api/resources?type=note&year=1 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:17:10.575Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:17:14 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:17:14.114Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:17:44 +0000] \"PUT /api/resources/697c9ed6c46258332273a520 HTTP/1.1\" 404 177 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:17:44.827Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:17:49 +0000] \"PUT /api/resources/697c9ed6c46258332273a520 HTTP/1.1\" 404 177 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:17:49.117Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:19:18 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:19:18.222Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:19:39 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:19:39.781Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:19:55 +0000] \"POST /api/auth/register HTTP/1.1\" - - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:19:55.095Z"}
+{"level":"error","message":"request aborted","timestamp":"2026-01-30T12:19:55.097Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:19:55 +0000] \"POST /api/auth/register HTTP/1.1\" 201 283 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:19:55.219Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:20:51 +0000] \"GET /api/resources?uploadedBy=697ca1eb75dd94b091a65448 HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:20:51.445Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:22:19 +0000] \"POST /api/auth/login HTTP/1.1\" 200 291 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:22:19.934Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:22:20 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:22:20.063Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:22:24 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:22:24.701Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:22:30 +0000] \"PUT /api/resources/697c9ed6c46258332273a520 HTTP/1.1\" 404 177 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:22:30.201Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:22:40 +0000] \"PUT /api/resources/697c9ed6c46258332273a520 HTTP/1.1\" 404 177 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:22:40.016Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:23:39 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:23:39.485Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:24:37 +0000] \"GET /api/resources?uploadedBy=697c4efc9f629f83225ba9fe HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:24:37.360Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:25:04 +0000] \"POST /api/auth/login HTTP/1.1\" 400 33 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:25:04.451Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:25:09 +0000] \"POST /api/auth/login HTTP/1.1\" 400 33 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:25:09.646Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:25:12 +0000] \"POST /api/auth/login HTTP/1.1\" 400 33 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:25:12.194Z"}
+{"level":"info","message":"New client connected: SmWaAjZYICO6xAjqAAAB","timestamp":"2026-01-30T12:26:00.723Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:26:05 +0000] \"POST /api/auth/register HTTP/1.1\" 400 33 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:26:05.906Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:26:11 +0000] \"POST /api/auth/register HTTP/1.1\" 400 33 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:26:11.084Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:26:18 +0000] \"POST /api/auth/register HTTP/1.1\" 400 33 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:26:18.194Z"}
+{"level":"info","message":"New client connected: F0Aed7-4Ws4cEbzJAAAB","timestamp":"2026-01-30T12:26:33.336Z"}
+{"level":"info","message":"New client connected: T4kMdV7phD7IUELxAAAB","timestamp":"2026-01-30T12:26:41.220Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:26:41 +0000] \"POST /api/auth/register HTTP/1.1\" 400 33 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:26:41.874Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:28:22 +0000] \"POST /api/auth/register HTTP/1.1\" 400 33 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:28:22.400Z"}
+{"level":"info","message":"New client connected: HePdnfbrcVQ1n5EqAAAB","timestamp":"2026-01-30T12:28:24.212Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:07 +0000] \"POST /api/auth/register HTTP/1.1\" 201 283 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:07.955Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:08 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:08.188Z"}
+{"level":"info","message":"Client disconnected: HePdnfbrcVQ1n5EqAAAB","timestamp":"2026-01-30T12:29:13.312Z"}
+{"level":"info","message":"New client connected: wLlmQihsb83MM6I5AAAD","timestamp":"2026-01-30T12:29:24.620Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:24 +0000] \"GET /api/auth/profile HTTP/1.1\" 200 92 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:24.680Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:25 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:25.077Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:30 +0000] \"GET /api/resources?type=note&year=1 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:30.127Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:33 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:33.987Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:35 +0000] \"GET /api/resources?type=note&year=2 HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:35.061Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:45 +0000] \"GET /api/resources?uploadedBy=697ca41304069cc3d1f8ede5 HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:45.129Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:50 +0000] \"GET /api/resources?type=note&year=1 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:50.042Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:29:50 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:29:50.341Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:30:05 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:30:05.915Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:31:43 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:31:43.852Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:31:48 +0000] \"GET /api/resources?type=note&year=1 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:31:48.951Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:32:57 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:32:57.567Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:33:01 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:33:01.266Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:33:03 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:33:03.548Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:33:05 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:33:05.635Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:33:07 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:33:07.774Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:33:15 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:33:15.434Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:33:22 +0000] \"GET /api/resources?type=all HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:33:22.632Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:36:49 +0000] \"GET /api/resources HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0\"","timestamp":"2026-01-30T12:36:49.932Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:37:08 +0000] \"POST /api/auth/login HTTP/1.1\" 200 283 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0\"","timestamp":"2026-01-30T12:37:08.726Z"}
+{"level":"info","message":"Client disconnected: wLlmQihsb83MM6I5AAAD","timestamp":"2026-01-30T12:37:18.277Z"}
+{"level":"info","message":"New client connected: crX8-tjx7eYcHL1LAAAF","timestamp":"2026-01-30T12:37:53.192Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:37:53 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:37:53.250Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:37:53 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:37:53.694Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:38:13 +0000] \"GET /api/resources HTTP/1.1\" 200 408 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:38:13.949Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:38:54 +0000] \"GET /api/resources?type=note&year=1 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:38:54.882Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:38:58 +0000] \"GET /api/resources?type=note&year=2 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:38:58.876Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:39:04 +0000] \"GET /api/resources?type=note&year=2 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:39:04.082Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:39:12 +0000] \"GET /api/resources?type=note&year=2 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:39:12.073Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:40:36 +0000] \"GET /api/resources HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:40:36.062Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:41:14 +0000] \"GET /api/resources?uploadedBy=697ca41304069cc3d1f8ede5 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:41:14.426Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:41:17 +0000] \"GET /api/resources HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:41:17.867Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:43:07 +0000] \"GET /api/resources?type=syllabus&year=3 HTTP/1.1\" 200 2 \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:43:07.601Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:43:32 +0000] \"GET /api/resources HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:43:32.355Z"}
+{"level":"info","message":"Client disconnected: crX8-tjx7eYcHL1LAAAF","timestamp":"2026-01-30T12:43:44.346Z"}
+{"level":"info","message":"New client connected: YWoyLUVOlpR5dQyrAAAH","timestamp":"2026-01-30T12:43:45.438Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:43:45 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:43:45.451Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:43:45 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:43:45.700Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:43:48 +0000] \"GET /api/resources HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:43:48.043Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:57:33 +0000] \"GET /api/resources HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:57:33.254Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:57:38 +0000] \"GET /api/resources?uploadedBy=697ca41304069cc3d1f8ede5 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:57:38.389Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:12:57:40 +0000] \"GET /api/resources HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T12:57:40.572Z"}
+{"level":"info","message":"Client disconnected: YWoyLUVOlpR5dQyrAAAH","timestamp":"2026-01-30T13:07:33.155Z"}
+{"level":"info","message":"New client connected: pqP0lCncZcdLrhC0AAAJ","timestamp":"2026-01-30T13:08:06.171Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:13:08:06 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T13:08:06.276Z"}
+{"level":"info","message":"Client disconnected: pqP0lCncZcdLrhC0AAAJ","timestamp":"2026-01-30T13:08:06.358Z"}
+{"level":"info","message":"New client connected: fcI8VDq-aftWbn32AAAL","timestamp":"2026-01-30T13:08:07.187Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:13:08:07 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T13:08:07.190Z"}
+{"level":"info","message":"Client disconnected: fcI8VDq-aftWbn32AAAL","timestamp":"2026-01-30T13:08:07.269Z"}
+{"level":"info","message":"New client connected: Ppf5Y-Pqmzxle47hAAAN","timestamp":"2026-01-30T13:08:56.215Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:13:08:56 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T13:08:56.252Z"}
+{"level":"info","message":"Client disconnected: Ppf5Y-Pqmzxle47hAAAN","timestamp":"2026-01-30T13:08:56.386Z"}
+{"level":"info","message":"New client connected: 6SmxsJ5cOusoQ3VNAAAP","timestamp":"2026-01-30T13:09:18.320Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:13:09:18 +0000] \"GET /api/auth/profile HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T13:09:18.358Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:13:09:18 +0000] \"GET /api/updates HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T13:09:18.794Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:13:10:25 +0000] \"GET /api/resources?uploadedBy=697ca41304069cc3d1f8ede5 HTTP/1.1\" 304 - \"-\" \"okhttp/4.9.2\"","timestamp":"2026-01-30T13:10:25.350Z"}
+{"level":"info","message":"Client disconnected: 6SmxsJ5cOusoQ3VNAAAP","timestamp":"2026-01-30T13:12:22.743Z"}
+{"level":"info","message":"New client connected: B1dmORG7MG9B1EXTAAAR","timestamp":"2026-01-30T13:12:23.786Z"}
+{"level":"info","message":"Client disconnected: B1dmORG7MG9B1EXTAAAR","timestamp":"2026-01-30T13:12:23.802Z"}
+{"level":"info","message":"New client connected: 0GrspwhsVnWEtfIVAAAT","timestamp":"2026-01-30T13:12:27.864Z"}
+{"level":"info","message":"Client disconnected: 0GrspwhsVnWEtfIVAAAT","timestamp":"2026-01-30T13:16:37.453Z"}
+{"level":"info","message":"New client connected: 41yqLd1SWjHxUpNnAAAV","timestamp":"2026-01-30T13:16:50.242Z"}
+{"level":"info","message":"Client disconnected: 41yqLd1SWjHxUpNnAAAV","timestamp":"2026-01-30T13:16:54.786Z"}
+{"level":"info","message":"New client connected: S7wYT7zFCQ8M0IHHAAAX","timestamp":"2026-01-30T13:16:57.988Z"}
+{"level":"info","message":"Client disconnected: S7wYT7zFCQ8M0IHHAAAX","timestamp":"2026-01-30T13:18:26.219Z"}
+{"level":"info","message":"New client connected: g13XgvIC5RgC4EUfAAAZ","timestamp":"2026-01-30T13:18:59.132Z"}
+{"level":"info","message":"Client disconnected: g13XgvIC5RgC4EUfAAAZ","timestamp":"2026-01-30T13:24:00.841Z"}
+{"level":"info","message":"New client connected: wBzfyD1-WqCJzwhMAAAb","timestamp":"2026-01-30T13:24:02.061Z"}
+{"level":"info","message":"Client disconnected: wBzfyD1-WqCJzwhMAAAb","timestamp":"2026-01-30T13:24:07.599Z"}
+{"level":"info","message":"New client connected: I9vylA9SZO2UyfxvAAAd","timestamp":"2026-01-30T13:24:15.290Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:19:51:14 +0000] \"GET /api/auth HTTP/1.1\" 404 147 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","timestamp":"2026-01-30T19:51:14.921Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:19:51:21 +0000] \"GET / HTTP/1.1\" 200 26 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","timestamp":"2026-01-30T19:51:21.044Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:19:51:21 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","timestamp":"2026-01-30T19:51:21.101Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:19:59:41 +0000] \"GET / HTTP/1.1\" 200 26 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","timestamp":"2026-01-30T19:59:41.201Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:19:59:41 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","timestamp":"2026-01-30T19:59:41.239Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:19:59:42 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","timestamp":"2026-01-30T19:59:42.141Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:19:59:53 +0000] \"GET /api/resource HTTP/1.1\" 404 151 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","timestamp":"2026-01-30T19:59:53.333Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:19:59:56 +0000] \"GET /api/resources HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","timestamp":"2026-01-30T19:59:56.734Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Jan/2026:19:59:56 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0\"","timestamp":"2026-01-30T19:59:56.781Z"}
