@@ -2,10 +2,11 @@ import { Request, Response } from "express";
 import bcrypt from "bcryptjs";
 import User, { IUser } from "../models/User";
 import { generateToken } from "../utils/generateToken";
+import { updateStreak } from "../utils/streak";
 
 export const register = async (req: Request, res: Response) => {
     console.log(req.body);
-    
+
     try {
         const { name, email, password } = req.body;
 
@@ -27,7 +28,13 @@ export const register = async (req: Request, res: Response) => {
                 id: user.id,
                 name: user.name,
                 email: user.email,
-                theme: user.theme
+                theme: user.theme,
+                streak: user.streak,
+                streakCalendar: user.streakCalendar,
+                totalTimeSpent: user.totalTimeSpent,
+                notesUploaded: user.notesUploaded,
+                dsaUploaded: user.dsaUploaded,
+                dsaSolved: user.dsaSolved
             }
         });
     } catch (error) {
@@ -37,7 +44,7 @@ export const register = async (req: Request, res: Response) => {
 
 export const login = async (req: Request, res: Response) => {
     console.log(req.body);
-    
+
     try {
         const { email, password } = req.body;
 
@@ -49,13 +56,21 @@ export const login = async (req: Request, res: Response) => {
         if (!isMatch)
             return res.status(400).json({ message: "Invalid credentials" });
 
+        await updateStreak(user.id);
+
         res.json({
             token: generateToken(user.id),
             user: {
                 id: user.id,
                 name: user.name,
                 email: user.email,
-                theme: user.theme
+                theme: user.theme,
+                streak: user.streak, // Send streak info
+                streakCalendar: user.streakCalendar,
+                totalTimeSpent: user.totalTimeSpent,
+                notesUploaded: user.notesUploaded,
+                dsaUploaded: user.dsaUploaded,
+                dsaSolved: user.dsaSolved
             }
         });
     } catch (error) {
@@ -72,6 +87,12 @@ export const getProfile = async (req: any, res: Response) => {
                 name: user.name,
                 email: user.email,
                 theme: user.theme,
+                streak: user.streak,
+                streakCalendar: user.streakCalendar,
+                totalTimeSpent: user.totalTimeSpent,
+                notesUploaded: user.notesUploaded,
+                dsaUploaded: user.dsaUploaded,
+                dsaSolved: user.dsaSolved,
             });
         } else {
             res.status(404).json({ message: "User not found" });
@@ -100,6 +121,12 @@ export const updateProfile = async (req: any, res: Response) => {
                 name: updatedUser.name,
                 email: updatedUser.email,
                 theme: updatedUser.theme,
+                streak: updatedUser.streak,
+                streakCalendar: updatedUser.streakCalendar,
+                totalTimeSpent: updatedUser.totalTimeSpent,
+                notesUploaded: updatedUser.notesUploaded,
+                dsaUploaded: updatedUser.dsaUploaded,
+                dsaSolved: updatedUser.dsaSolved,
                 token: generateToken(updatedUser._id.toString()),
             });
         } else {

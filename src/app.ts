@@ -6,6 +6,7 @@ import rateLimit from "express-rate-limit";
 import authRoutes from "./routes/auth.routes";
 import resourceRoutes from "./routes/resource.routes";
 import updateRoutes from "./routes/update.routes";
+import questionRoutes from "./routes/question.routes";
 import { errorHandler } from "./middlewares/error.middleware";
 import logger from "./utils/logger";
 
@@ -40,9 +41,13 @@ app.get("/", (req, res) => {
 
 
 // Routes
+import analyticsRoutes from "./routes/analytics.routes";
+
 app.use("/api/auth", authRoutes);
 app.use("/api/resources", resourceRoutes);
 app.use("/api/updates", updateRoutes);
+app.use("/api/questions", questionRoutes);
+app.use("/api/analytics", analyticsRoutes);
 
 // Error handling middleware (must be last)
 app.use(errorHandler);
