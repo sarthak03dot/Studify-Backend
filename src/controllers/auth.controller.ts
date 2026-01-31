@@ -180,9 +180,21 @@ export const solveQuestion = asyncHandler(async (req: any, res: Response) => {
 
     if (user.solvedQuestionIds.includes(questionId)) {
         return sendResponse(res, HttpStatus.OK, {
+            id: user._id,
+            name: user.name,
+            email: user.email,
+            theme: user.theme,
+            streak: user.streak,
+            streakCalendar: user.streakCalendar,
+            totalTimeSpent: user.totalTimeSpent,
+            notesUploaded: user.notesUploaded,
+            dsaUploaded: user.dsaUploaded,
             dsaSolved: user.dsaSolved,
             questionsSolved: user.dsaSolved,
-            solvedQuestionIds: user.solvedQuestionIds
+            solvedQuestionIds: user.solvedQuestionIds,
+            bio: user.bio,
+            college: user.college,
+            socialHandles: user.socialHandles
         }, "Question already solved");
     }
 
