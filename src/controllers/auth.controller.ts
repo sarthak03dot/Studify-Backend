@@ -187,9 +187,16 @@ export const solveQuestion = asyncHandler(async (req: any, res: Response) => {
 
     sendResponse(res, HttpStatus.OK, {
         id: updatedUser._id,
+        name: updatedUser.name,
+        email: updatedUser.email,
+        theme: updatedUser.theme,
+        streak: updatedUser.streak,
+        streakCalendar: updatedUser.streakCalendar,
+        totalTimeSpent: updatedUser.totalTimeSpent,
+        notesUploaded: updatedUser.notesUploaded,
+        dsaUploaded: updatedUser.dsaUploaded,
         dsaSolved: updatedUser.dsaSolved,
         questionsSolved: updatedUser.dsaSolved,
-        solvedQuestionIds: updatedUser.solvedQuestionIds,
-        streak: updatedUser.streak
+        solvedQuestionIds: updatedUser.solvedQuestionIds
     }, "Question marked as solved");
 });
