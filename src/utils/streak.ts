@@ -34,6 +34,12 @@ export const updateStreak = async (userId: string) => {
             // No streak change, but maybe calendar update needed if first time today?
         }
 
+        // Update highest streak
+        if (user.streak.count > (user.streak.highestStreak || 0)) {
+            user.streak.highestStreak = user.streak.count;
+            streakUpdated = true;
+        }
+
         // --- CALENDAR LOGIC ---
         // user.streakCalendar is [{ date: Date, active: boolean }]
         // Check if today is already in calendar

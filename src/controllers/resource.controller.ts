@@ -56,6 +56,28 @@ export const updateResource = asyncHandler(async (req: any, res: Response) => {
     sendResponse(res, HttpStatus.OK, resource, "Resource updated successfully");
 });
 
+// @desc    Delete a resource
+// @route   DELETE /api/resources/:id
+// @access  Private
+export const deleteResource = asyncHandler(async (req: any, res: Response) => {
+    const { id } = req.params;
+
+    const resource = await Resource.findById(id);
+
+    if (!resource) {
+        throw new AppError("Resource not found", HttpStatus.NOT_FOUND);
+    }
+
+    // Check ownership
+    if (resource.uploadedBy.toString() !== req.user._id.toString()) {
+        throw new AppError("Not authorized to delete this resource", HttpStatus.FORBIDDEN);
+    }
+
+    await resource.deleteOne();
+
+    sendResponse(res, HttpStatus.OK, null, "Resource deleted successfully");
+});
+
 // @desc    Get all resources with filtering
 // @route   GET /api/resources
 // @access  Public

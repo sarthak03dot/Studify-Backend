@@ -8,6 +8,7 @@ export interface IUser extends Document {
     streak: {
         count: number;
         lastActiveDate: Date;
+        highestStreak: number;
     };
     streakCalendar: { date: Date; active: boolean }[];
     totalTimeSpent: number; // in minutes
@@ -24,7 +25,8 @@ const userSchema = new mongoose.Schema<IUser>(
         theme: { type: String, enum: ["light", "dark"], default: "light" },
         streak: {
             count: { type: Number, default: 0 },
-            lastActiveDate: { type: Date, default: Date.now }
+            lastActiveDate: { type: Date, default: Date.now },
+            highestStreak: { type: Number, default: 0 }
         },
         streakCalendar: [
             {
