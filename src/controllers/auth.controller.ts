@@ -101,6 +101,16 @@ export const updateProfile = asyncHandler(async (req: any, res: Response) => {
 
     user.name = req.body.name || user.name;
     user.theme = req.body.theme || user.theme;
+    user.bio = req.body.bio !== undefined ? req.body.bio : user.bio;
+    user.college = req.body.college !== undefined ? req.body.college : user.college;
+
+    if (req.body.socialHandles) {
+        user.socialHandles = {
+            github: req.body.socialHandles.github !== undefined ? req.body.socialHandles.github : user.socialHandles.github,
+            leetcode: req.body.socialHandles.leetcode !== undefined ? req.body.socialHandles.leetcode : user.socialHandles.leetcode,
+            codeforces: req.body.socialHandles.codeforces !== undefined ? req.body.socialHandles.codeforces : user.socialHandles.codeforces,
+        };
+    }
 
     if (req.body.password) {
         user.password = await bcrypt.hash(req.body.password, 10);
@@ -119,6 +129,11 @@ export const updateProfile = asyncHandler(async (req: any, res: Response) => {
         notesUploaded: updatedUser.notesUploaded,
         dsaUploaded: updatedUser.dsaUploaded,
         dsaSolved: updatedUser.dsaSolved,
+        questionsSolved: updatedUser.dsaSolved,
+        resourcesUploaded: updatedUser.notesUploaded + updatedUser.dsaUploaded,
+        bio: updatedUser.bio,
+        college: updatedUser.college,
+        socialHandles: updatedUser.socialHandles,
         token: generateToken(updatedUser._id.toString()),
     }, "Profile updated successfully");
 });
@@ -135,4 +150,46 @@ export const changePassword = asyncHandler(async (req: any, res: Response) => {
     await user.save();
 
     sendResponse(res, HttpStatus.OK, null, "Password updated successfully");
+});
+
+export const solveQuestion = asyncHandler(async (req: any, res: Response) => {
+    const { questionId } = req.body;
+    const user = await User.findById(req.user._id);
+
+    if (!user) {
+        throw new AppError("User not found", HttpStatus.NOT_FOUND);
+    }
+
+    if (!questionId) {
+        throw new AppError("Question ID is required", HttpStatus.BAD_REQUEST);
+    }
+
+    // Initialize if undefined
+    if (!user.solvedQuestionIds) {
+        user.solvedQuestionIds = [];
+    }
+
+    if (user.solvedQuestionIds.includes(questionId)) {
+        return sendResponse(res, HttpStatus.OK, {
+            dsaSolved: user.dsaSolved,
+            questionsSolved: user.dsaSolved,
+            solvedQuestionIds: user.solvedQuestionIds
+        }, "Question already solved");
+    }
+
+    user.solvedQuestionIds.push(questionId);
+    user.dsaSolved = (user.dsaSolved || 0) + 1;
+
+    // Update streak as this is an activity
+    await updateStreak(user.id);
+
+    const updatedUser = await user.save();
+
+    sendResponse(res, HttpStatus.OK, {
+        id: updatedUser._id,
+        dsaSolved: updatedUser.dsaSolved,
+        questionsSolved: updatedUser.dsaSolved,
+        solvedQuestionIds: updatedUser.solvedQuestionIds,
+        streak: updatedUser.streak
+    }, "Question marked as solved");
 });

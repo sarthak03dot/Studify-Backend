@@ -15,6 +15,14 @@ export interface IUser extends Document {
     notesUploaded: number;
     dsaUploaded: number;
     dsaSolved: number;
+    bio: string;
+    college: string;
+    socialHandles: {
+        github: string;
+        leetcode: string;
+        codeforces: string;
+    };
+    solvedQuestionIds: string[];
 }
 
 const userSchema = new mongoose.Schema<IUser>(
@@ -37,7 +45,15 @@ const userSchema = new mongoose.Schema<IUser>(
         totalTimeSpent: { type: Number, default: 0 },
         notesUploaded: { type: Number, default: 0 },
         dsaUploaded: { type: Number, default: 0 },
-        dsaSolved: { type: Number, default: 0 }
+        dsaSolved: { type: Number, default: 0 },
+        bio: { type: String, default: "" },
+        college: { type: String, default: "" },
+        socialHandles: {
+            github: { type: String, default: "" },
+            leetcode: { type: String, default: "" },
+            codeforces: { type: String, default: "" },
+        },
+        solvedQuestionIds: [{ type: String }]
     },
     { timestamps: true }
 );

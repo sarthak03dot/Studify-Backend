@@ -19,6 +19,13 @@ export const updateProfileSchema = z.object({
     body: z.object({
         name: z.string().min(2).optional(),
         theme: z.enum(["light", "dark"]).optional(),
+        bio: z.string().max(200).optional(),
+        college: z.string().max(100).optional(),
+        socialHandles: z.object({
+            github: z.string().optional(),
+            leetcode: z.string().optional(),
+            codeforces: z.string().optional(),
+        }).optional(),
     }),
 });
 
