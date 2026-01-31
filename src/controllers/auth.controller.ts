@@ -35,7 +35,10 @@ export const register = asyncHandler(async (req: Request, res: Response) => {
             totalTimeSpent: user.totalTimeSpent,
             notesUploaded: user.notesUploaded,
             dsaUploaded: user.dsaUploaded,
-            dsaSolved: user.dsaSolved
+            dsaSolved: user.dsaSolved,
+            bio: user.bio,
+            college: user.college,
+            socialHandles: user.socialHandles
         }
     }, "User registered successfully");
 });
@@ -67,7 +70,10 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
             totalTimeSpent: user.totalTimeSpent,
             notesUploaded: user.notesUploaded,
             dsaUploaded: user.dsaUploaded,
-            dsaSolved: user.dsaSolved
+            dsaSolved: user.dsaSolved,
+            bio: user.bio,
+            college: user.college,
+            socialHandles: user.socialHandles
         }
     }, "Login successful");
 });
@@ -89,6 +95,9 @@ export const getProfile = asyncHandler(async (req: any, res: Response) => {
         notesUploaded: user.notesUploaded,
         dsaUploaded: user.dsaUploaded,
         dsaSolved: user.dsaSolved,
+        bio: user.bio,
+        college: user.college,
+        socialHandles: user.socialHandles,
     });
 });
 
@@ -197,6 +206,9 @@ export const solveQuestion = asyncHandler(async (req: any, res: Response) => {
         dsaUploaded: updatedUser.dsaUploaded,
         dsaSolved: updatedUser.dsaSolved,
         questionsSolved: updatedUser.dsaSolved,
-        solvedQuestionIds: updatedUser.solvedQuestionIds
+        solvedQuestionIds: updatedUser.solvedQuestionIds,
+        bio: updatedUser.bio,
+        college: updatedUser.college,
+        socialHandles: updatedUser.socialHandles
     }, "Question marked as solved");
 });
