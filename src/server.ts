@@ -1,13 +1,11 @@
-import dotenv from "dotenv";
-dotenv.config();
-
+import { env } from "./utils/env";
 import app from "./app";
 import { connectDB } from "./config/db";
 import http from "http";
 import { Server } from "socket.io";
 import logger from "./utils/logger";
 
-const PORT = process.env.PORT || 5000;
+const PORT = env.PORT;
 
 // Create HTTP server
 const server = http.createServer(app);
