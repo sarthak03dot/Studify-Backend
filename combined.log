@@ -428,3 +428,4 @@
 {"level":"info","message":"::1 - - [31/Jan/2026:10:12:23 +0000] \"POST /api/auth/login HTTP/1.1\" 400 33 \"-\" \"curl/8.17.0\"","timestamp":"2026-01-31T10:12:23.463Z"}
 {"level":"info","message":"::1 - - [31/Jan/2026:10:13:13 +0000] \"POST /api/auth/register HTTP/1.1\" 201 301 \"-\" \"curl/8.17.0\"","timestamp":"2026-01-31T10:13:13.701Z"}
 {"level":"info","message":"::1 - - [31/Jan/2026:10:13:14 +0000] \"POST /api/questions HTTP/1.1\" 201 292 \"-\" \"curl/8.17.0\"","timestamp":"2026-01-31T10:13:14.344Z"}
+{"level":"info","message":"✅ MongoDB connected","timestamp":"2026-06-03T21:05:25.950Z"}
